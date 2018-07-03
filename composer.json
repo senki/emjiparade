@@ -1,0 +1,28 @@
+{
+  "name": "senki/emojiparade",
+  "description": "Returns SVG string (twemoji)",
+  "keywords": ["emoji", "twemoji", "svg", "unicode"],
+  "license": "MIT",
+  "authors": [{
+    "name": "Csaba Maulis",
+    "email": "csaba.maulis@gmail.com"
+  }],
+  "type": "library",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.2.6",
+    "codedungeon/phpunit-result-printer": "^0.19.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Senki\\EmojiParade\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
